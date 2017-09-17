@@ -2,17 +2,19 @@
 html {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
-	background-image: url('../images/the-flatiron-building.png')
 }
 
+.page_top {
+	background-image: url('../images/the-flatiron-building.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	font-weight: bold;
+}
+	
 h1 {
 	color: white;
 	font-size: 70px;
-}
-
-.links {
-	color: white;
-	font-size: 18px;
 }
 
 h2 {
@@ -23,7 +25,7 @@ h3 {
 	font-size: 23px;
 }
 
-h3 design_ny {
+.design_ny {
 	color: white;
 	background-image: url('../images/the-flatiron-building.png')
 }
@@ -31,11 +33,12 @@ h3 design_ny {
 .page_bottom {
 	background: dimgray;
 	color: white;
-	align: left;
+	text-align: left;
+	font-size: 11px;
 }
 
-#copyright {
-	font-size: 11px;
+a {
+	color: white;
 }
 
 
